@@ -137,6 +137,8 @@ ul{
   /*per centrare un testo*/
   line-height: 16px;
   text-align: center;
+
+  vertical-align: middle;
 }
 
 .secondary-list li.check::before{
@@ -151,6 +153,7 @@ ul{
   color: #ea4237;
 }
 
+/*setting TAG colorato generale */
 .secondary-list li::after{
   color: white;
   font-size: 0.6rem;
