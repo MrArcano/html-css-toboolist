@@ -45,7 +45,7 @@ header img{
   width: 70%;
   /* min-width: 600px; */
   margin: 0 auto;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 /* sezione bottoni */
@@ -87,6 +87,7 @@ header img{
 .lists{
   background-color: white;
   padding-top: 50px;
+  padding-bottom: 50px;
   padding-left: 50px;
 
   border-bottom-left-radius: 10px;
@@ -101,6 +102,7 @@ ul{
   font-size: 20px;
   font-weight: bold;
   color: #444851;
+  margin-bottom: 32px;
 }
 
 .lists ul.primary-list>li::before{
@@ -114,7 +116,7 @@ ul{
 }
 
 .secondary-list li{
-  margin: 8px;
+  margin: 8px 0px;
 }
 
 .secondary-list li::before{
@@ -132,6 +134,7 @@ ul{
   margin-left: 5px;
   margin-right: 10px;
 
+  /*per centrare un testo*/
   line-height: 16px;
   text-align: center;
 }
@@ -143,7 +146,7 @@ ul{
 }
 
 .secondary-list li.cross::before{
-  /* &check; */
+  /* &cross; */
   content: '\2717';
   color: #ea4237;
 }
