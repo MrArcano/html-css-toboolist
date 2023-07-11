@@ -1,3 +1,12 @@
+/* 
+  #47adf1 azzurro
+  #9c72e4 violetto
+  #64c0a9 verdino
+  #f29e33 arancio
+  #d863a1 fucsia
+  #b0c926 lime
+*/
+
 /* GENERALE */
 /* ---------------------------------------------- */
 *{
@@ -9,6 +18,10 @@
 html{
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+  background-color: #f6f8f9
+}
 /* ---------------------------------------------- */
 
 /* HEADER */
@@ -17,9 +30,12 @@ header{
   background-color: white;
 }
 
-header h1{
+header h1 {
   display: inline-block;
   vertical-align: middle;
+  font-weight: bolder;
+  font-size: 40px;
+  font-weight: 800;
 }
 
 header img{
@@ -31,8 +47,45 @@ header img{
 /* MAIN */
 /* ---------------------------------------------- */
 
-main{
-  background-color: lightgrey;
+.container{
+  /* background-color: green; */
+  width: 80%;
+  min-width: 600px;
+  margin: 0 auto;
+  height: 100vh;
 }
+
+/* sezione bottoni */
+.buttons{
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 2px;
+  padding: 10px 0px 10px 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.buttons button{
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.buttons button#task{
+  background-color: #47adf1;
+  color: white;
+  border: 1px solid #47adf1;
+}
+
+.buttons button#sect{
+  background-color: white;
+  color: #c4cacf;
+  border: 1px solid #c4cacf;
+}
+
+/* sezione bottoni */
+
 
 /* ---------------------------------------------- */
