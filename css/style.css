@@ -5,6 +5,9 @@
   #f29e33 arancio
   #d863a1 fucsia
   #b0c926 lime
+
+  #64c0a9 color check green
+  #ea4237 color cross red
 */
 
 /* GENERALE */
@@ -49,13 +52,14 @@ header img{
 
 .container{
   /* background-color: green; */
-  width: 80%;
-  min-width: 600px;
+  width: 70%;
+  /* min-width: 600px; */
   margin: 0 auto;
   height: 100vh;
 }
 
 /* sezione bottoni */
+/* ---------------------------------------------- */
 .buttons{
   background-color: white;
   margin-top: 50px;
@@ -67,7 +71,7 @@ header img{
 
 .buttons button{
   padding: 8px 16px;
-  border: none;
+  /* border: none; */
   cursor: pointer;
   font-weight: bold;
   border-radius: 8px;
@@ -76,16 +80,63 @@ header img{
 .buttons button#task{
   background-color: #47adf1;
   color: white;
-  border: 1px solid #47adf1;
+  border: 2px solid #47adf1;
 }
 
 .buttons button#sect{
   background-color: white;
   color: #c4cacf;
-  border: 1px solid #c4cacf;
+  border: 2px solid #c4cacf;
+}
+/* fine sezione bottoni */
+/* ---------------------------------------------- */
+
+/* sezione liste */
+/* ---------------------------------------------- */
+
+.lists{
+  background-color: white;
+  padding-top: 50px;
+  padding-left: 50px;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-/* sezione bottoni */
+ul{
+  list-style: none;
+}
+
+.lists ul.primary-list>li{
+  font-size: 20px;
+  font-weight: bold;
+  color: #444851;
+}
+
+.lists ul.primary-list>li::before{
+  /* &blacktriangledown; */
+  content: '\25BE';
+}
+
+.secondary-list{
+  font-weight:400;
+  font-size: 16px;
+}
+
+.secondary-list li.check::before{
+  /* &check; */
+  content: '\2713';
+}
+
+.secondary-list li.cross::before{
+  /* &check; */
+  content: '\2717';
+}
 
 
+/* ---------------------------------------------- */
+/* fine sezione liste */
+
+
+/* fine MAIN */
 /* ---------------------------------------------- */
